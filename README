@@ -1,0 +1,22 @@
+WattiTry.bat is the main file.
+
+When run in Windows, it should open the licensing agreement first, and then allow access to the implemented systems.
+
+It should run as a wizard, and be fairly straight forward.
+
+It currently supports:
+
+Getting a user's current status. -> Currently displayed in unformatted JSON.
+Getting a cast list from a story ID. -> Currently displayed in unformatted JSON.
+A basic search function on Wattpad.com -> Currently displayed in unformatted JSON. Seems to have problems processing sometimes. Reason unknown.
+Viewing comments on a story ID. -> Currently displayed in unformatted JSON.
+
+Viewing a story from it's ID. -> This function is completely in alpha stage. It does NOT use the wattpad API, meaning wattpad can change the system it uses to view the data, and break it. It's happened twice since I started writing this batch file. It is displayed in unformatted html content.
+
+Being worked on:
+
+A system for processing JSON data, so it looks decent, and is easier to read.
+
+Formatting the story view system.
+Finding a hard-link to prevent breaking of the story view system.
+Limiting the rate, so that the Wattpad API doesn't block the system when it's used a lot.
