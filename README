@@ -1,6 +1,7 @@
 WattiTry.bat is the main file.
 
 When run in Windows, it should open the licensing agreement first, and then allow access to the implemented systems.
+When run in Linux, the whole thing should break.
 
 It should run as a wizard, and be fairly straight forward.
 
@@ -20,3 +21,5 @@ A system for processing JSON data, so it looks decent, and is easier to read.
 Formatting the story view system.
 Finding a hard-link to prevent breaking of the story view system.
 Limiting the rate, so that the Wattpad API doesn't block the system when it's used a lot.
+A *nix based system for Linux, Solaris and so on.
+A version that can work on Mac... If the *nix one can't.
